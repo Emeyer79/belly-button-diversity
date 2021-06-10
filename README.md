@@ -2,7 +2,7 @@
 
 # Plot.ly Homework - Belly Button Biodiversity
 
-https://emeyer79.github.io/belly-button-diversity/
+https://emeyer79.github.io/belly-button-diversity/index.html
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
