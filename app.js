@@ -26,13 +26,13 @@ var drawChart = function(x_data, y_data, hoverText, metadata) {
     Plotly.newPlot('bar', data);
   
     var trace2 = {
-        x: x_data,
-        y: y_data,
+        x: samples.otu_ids,
+        y: samples.sample_values,
         text: hoverText,
         mode: 'markers',
         marker: {
-            size: y_data,
-            color: x_data
+            size: samples.sample_values,
+            color: samples.otu_ids
         }
     };
   
